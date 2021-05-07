@@ -1,6 +1,6 @@
 // Connect to DB
 const { Client } = require('pg');
-const DB_NAME = 'localhost:5432/baking-friends';
+const DB_NAME = 'localhost:5432/cme';
 const DB_URL = process.env.DATABASE_URL || `postgres://${ DB_NAME }`;
 const client = new Client(DB_URL);
 
